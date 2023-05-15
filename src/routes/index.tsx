@@ -9,7 +9,7 @@ export default component$(() => {
   useVisibleTask$(({ track }) => {
     track(() => UserStore.authReady);
     if (UserStore.authReady && UserStore.user === null) {
-      nav("/login");
+      nav("/signin");
     }
   });
 
