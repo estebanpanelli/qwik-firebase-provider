@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family: Rubik;
+}
+
+body {
+  margin: 0;
+  line-height: inherit;
+  background-color: #eee;
+}
+
+main {
+  padding-top: 1rem;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  background-color: #e0fbe9;
+}
+
+input[type="checkbox"] {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 17px;
+  height: 17px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 3px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.main-card {
+  display: flex;
+  gap: 0.5rem;
+  min-width: 350px;
+  width: calc(100vw - 2rem);
+  margin: auto;
+  background: white;
+  box-shadow: 1px 1px 7px #ccc;
+  margin-bottom: 0.5rem;
+  padding: 1rem 0.5rem;
+  border: 1px solid #ccc;
+  border-left: 4px solid #009341;
+}
+
+header.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  height: 4rem;
+  background: #28b767;
+  box-shadow: 0 0 10px -3px #999;
+}

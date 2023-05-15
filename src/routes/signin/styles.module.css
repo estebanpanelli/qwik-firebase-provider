@@ -1,0 +1,18 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.remember-me label {
+  margin: 0;
+  margin-left: 5px;
+}
